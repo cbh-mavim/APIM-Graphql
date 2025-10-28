@@ -1,0 +1,15 @@
+from gql.resolvers.query.company import get_companies
+from gql.resolvers.query.customer_addons_details import get_customer_addons_details
+from gql.resolvers.query.customer_edition_details import get_customer_edition_details
+from gql.resolvers.query.edition_function_details import get_edition_function_details   
+from gql.resolvers.query.mavim_databases_details import get_mavim_databases_details
+from gql.resolvers.query.users import get_users_mavim_manager
+from gql.resolvers.query.mpm_customers import get_mpm_customers
+from gql.resolvers.query.portal import get_portal
+from gql.resolvers.query.license_customer_product import get_license_customer_product
+from gql.resolvers.query.combined_users import get_combined_users
+from gql.resolvers.query.combined_databases import get_combined_databases
+from gql.resolvers.query.portal_monthly_users_report import get_portal_monthly_users_report
+from gql.resolvers.query.company_global_admin import get_company_global_admin
+from gql.resolvers.query.manager_user_login_details import get_manager_user_login_details
+

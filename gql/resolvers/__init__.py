@@ -1,0 +1,1 @@
+from .resolvers_registry import *

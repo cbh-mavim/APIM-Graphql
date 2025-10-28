@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test directories
+tests/
+test/
+
+# Development environments
+.venv/
+.antenv/
+env/
+venv/
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+
+# Deployment configuration
+.deployment
+.azure/

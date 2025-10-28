@@ -1,0 +1,21 @@
+logger: 
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+base_dir: "mavim_catalog_gold/gold"
+
+tables:
+  combined_databases: "combined_databases"
+  combined_users: "combined_users"
+  company: "company"
+  customer_addon_details: "customer_addon_details"
+  customer_edition_details: "customer_edition_details"
+  edition_function_details: "edition_function_details"
+  license_customer_product: "license_customer_product"
+  mavim_databases_details: "mavim_databases_details"
+  mpm_customers: "mpm_customers"
+  portal_monthly_users_report: "portal_monthly_users_report"
+  portal: "portal"
+  mavim_manager_users: "mavim_manager_users"
+  company_global_admins: "company_global_admins"
+  manager_user_login_details: "manager_user_login_details"
